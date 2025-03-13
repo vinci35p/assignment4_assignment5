@@ -10,11 +10,9 @@ while True:
     except ValueError:
         break
 
-# Determine the average.
+# Determine the average and print.
 if num_list:
     average = sum(num_list) / len(num_list)
-
-# Print the average.
     print(f"The average for the inputted number is {average}.")
 else:
     print("There are no valid inputted numbers.")
