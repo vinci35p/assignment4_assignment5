@@ -8,12 +8,10 @@ while True:
         num = int(input("Enter a number: "))
         num_list.append(num)
 
-# Determine numbers from highest to lowest.
+# Determine numbers from highest to lowest and print.
     except ValueError:
         if num_list:
             num_list.sort(reverse=True)
-
-# Print numbers from highest to lowest.
             print(f"The numbers from highest to lowest are: {num_list}")
         else:
             print("No valid entry inputted.")
