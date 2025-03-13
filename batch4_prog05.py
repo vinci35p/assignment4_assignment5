@@ -6,7 +6,7 @@ num_list = []
 while True:
     try:
         num = int(input("Enter a number: "))
-
+        num_list.append(num)
     except ValueError:
         break
 
