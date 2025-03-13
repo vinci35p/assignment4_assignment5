@@ -16,3 +16,5 @@ while True:
             number.append(num)
 
 # Print if number is invalid then end the program.
+    except ValueError:
+        print("Invalid entry, exiting.")
