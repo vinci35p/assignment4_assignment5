@@ -19,10 +19,12 @@ else:
     for num in num_list:
         if num in iteration:
             iteration[num] += 1
+        else:
+            iteration[num] = 1
 
     most_iterated_num = max(iteration, key=iteration.get)
     most_count = iteration[most_iterated_num]
 
 # Print the number.
 
-    print(most_iterated_num)
+    print(most_iterated_num, most_count)
