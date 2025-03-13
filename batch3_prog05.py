@@ -8,7 +8,6 @@ while True:
         num = int(input("Enter a number: "))
         num_list.append(num)
 
-
 # Determine the numbers from lowest to highest.
     except ValueError:
         if num_list:
