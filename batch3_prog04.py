@@ -7,5 +7,9 @@ while True:
         num1 = int(input("Enter a number: "))
 
 # Print invalid entry if the inputted value is not a number.
+    except ValueError:
+        print("Invalid entry.")
 
 # Determine the lowest number from the inputted numbers.
+        print(f"The lowest inputted number is {min(numbers)}.")
+
