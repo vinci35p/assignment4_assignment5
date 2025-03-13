@@ -1,15 +1,23 @@
 # Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the lowest number.
 
 # Input a number and initialize the list.
-numbers = []
+lowest_number = None
 while True:
     try:
-        num1 = int(input("Enter a number: "))
+        num = int(input("Enter a number: "))
 
-# Print invalid entry if the inputted value is not a number.
+# Determine the lowest number.
+
+        if lowest_number is None or num < lowest_number:
+            lowest_number = num
+
+# Print invalid entry if the inputted value is not a number, while printing the lowest number.
     except ValueError:
-        print("Invalid entry.")
+        if lowest_number is not None:
+            print(f"The lowest number is {lowest_number}.")
+        else:
+            print("No valid numbers are inputted.")
+        break
 
-# Determine the lowest number from the inputted numbers.
-        print(f"The lowest inputted number is {min(numbers)}.")
+
 
