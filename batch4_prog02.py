@@ -26,5 +26,4 @@ else:
     most_count = iteration[most_iterated_num]
 
 # Print the number.
-
-    print(most_iterated_num, most_count)
+    print(f"The most duplicated number is {most_iterated_num}, and it appeared {most_count} times.")
