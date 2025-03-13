@@ -11,10 +11,10 @@ while True:
 # Determine numbers from highest to lowest.
     except ValueError:
         if num_list:
-            num_list.sort()
+            num_list.sort(reverse=True)
 
 # Print numbers from highest to lowest.
-            print(f"The numbers from lowest to highest are: {num_list}")
+            print(f"The numbers from highest to lowest are: {num_list}")
         else:
             print("No valid entry inputted.")
         break
