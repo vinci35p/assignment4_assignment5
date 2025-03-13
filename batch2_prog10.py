@@ -9,3 +9,4 @@ number_step = 1 if num1 < num2 else -1
 for num in range(num1 + number_step, num2, number_step):
 
 # Print the determined numbers.
+    print(num)
