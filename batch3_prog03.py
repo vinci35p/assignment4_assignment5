@@ -12,7 +12,7 @@ while True:
 
 # Print if number is unique.
         else:
-            print("Unique")
+            print("Unique.")
             number.append(num)
 
 # Print if number is invalid then end the program.
