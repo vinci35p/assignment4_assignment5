@@ -2,6 +2,7 @@
 
 # Input a number.
 number = []
+
 while True:
     try:
         num = int(input("Enter a number: "))

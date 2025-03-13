@@ -2,6 +2,7 @@
 
 # Input a number and initialize the list.
 lowest_number = None
+
 while True:
     try:
         num = int(input("Enter a number: "))
