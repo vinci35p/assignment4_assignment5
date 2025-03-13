@@ -15,3 +15,7 @@ while True:
             num_list.sort()
 
 # Print the numbers from lowest to highest.
+            print(f"The numbers from lowest to highest are: {num_list}")
+        else:
+            print("No valid entry inputted.")
+        break
