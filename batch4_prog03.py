@@ -7,6 +7,9 @@ while True:
     try:
         num = int(input("Enter a number: "))
 
+        if highest_number is None or num > highest_number:
+            highest_number = num
+
 # Determine the highest number.
 
 # Print the highest number.
