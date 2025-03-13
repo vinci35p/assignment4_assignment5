@@ -8,3 +8,4 @@ for num in range(0, 100):
     if num % 10 != 0:
 
 # Print the included numbers.
+        print(num)
