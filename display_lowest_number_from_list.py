@@ -1,5 +1,3 @@
-# Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the lowest number.
-
 # Input a number and initialize the list.
 lowest_number = None
 
@@ -19,6 +17,3 @@ while True:
         else:
             print("No valid numbers are inputted.")
         break
-
-
-
